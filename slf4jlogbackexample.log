@@ -1,0 +1,170 @@
+14.12.2023 16:30:59.600 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.belov.paymentservice.PaymentServiceApplicationTests]: PaymentServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14.12.2023 16:30:59.798 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.belov.paymentservice.PaymentServiceApplication for test class com.belov.paymentservice.PaymentServiceApplicationTests
+14.12.2023 16:31:00.280 [main] INFO  o.t.u.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+14.12.2023 16:31:00.563 [background-preinit] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+14.12.2023 16:31:00.630 [main] INFO  c.b.p.PaymentServiceApplicationTests - Starting PaymentServiceApplicationTests using Java 21 with PID 11436 (started by aleksej in /Users/aleksej/Desktop/Учеба/Конспект и дз по Нетологии/9. Sptring Boot, Deplyment & инфраструктура/9.6._Курсовая_работа/PaymentService/PaymentService)
+14.12.2023 16:31:00.632 [main] INFO  c.b.p.PaymentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14.12.2023 16:31:01.916 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+14.12.2023 16:31:01.928 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+14.12.2023 16:31:01.930 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+14.12.2023 16:31:01.931 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+14.12.2023 16:31:02.058 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+14.12.2023 16:31:02.058 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1393 ms
+14.12.2023 16:31:02.262 [main] INFO  c.b.p.r.CardDateBase - База карт проинициализирована
+14.12.2023 16:31:02.690 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14.12.2023 16:31:02.746 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+14.12.2023 16:31:02.765 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 59817 (http) with context path ''
+14.12.2023 16:31:02.780 [main] INFO  c.b.p.PaymentServiceApplicationTests - Started PaymentServiceApplicationTests in 2.453 seconds (process running for 4.254)
+14.12.2023 16:31:04.011 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+14.12.2023 16:31:04.268 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+14.12.2023 16:31:04.269 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+14.12.2023 16:31:04.279 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 24.0.6
+  API Version: 1.43
+  Operating System: Docker Desktop
+  Total Memory: 7846 MB
+14.12.2023 16:31:04.300 [main] INFO  t.t.5.1 - Creating container for image: testcontainers/ryuk:0.5.1
+14.12.2023 16:31:10.607 [main] INFO  t.t.5.1 - Container testcontainers/ryuk:0.5.1 is starting: cc8dcf1827dca859d7427680451e8a1078c59cd0d7e51510024a52a8cc1a34f4
+14.12.2023 16:31:11.499 [main] INFO  t.t.5.1 - Container testcontainers/ryuk:0.5.1 started in PT7.212975S
+14.12.2023 16:31:11.509 [main] INFO  o.t.u.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+14.12.2023 16:31:11.509 [main] INFO  o.t.DockerClientFactory - Checking the system...
+14.12.2023 16:31:11.510 [main] INFO  o.t.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+14.12.2023 16:31:11.511 [main] INFO  t.t.0 - Creating container for image: transferapperror:1.0
+14.12.2023 16:31:11.566 [main] INFO  t.t.0 - Container transferapperror:1.0 is starting: 5126e0f84825b994d0b99fe8e11372f99fe6e001b18d9bb3244c8e3dcecd591a
+14.12.2023 16:31:17.849 [main] INFO  t.t.0 - Container transferapperror:1.0 started in PT6.338308S
+14.12.2023 17:09:35.218 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.belov.paymentservice.PaymentServiceApplicationTests]: PaymentServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14.12.2023 17:09:35.380 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.belov.paymentservice.PaymentServiceApplication for test class com.belov.paymentservice.PaymentServiceApplicationTests
+14.12.2023 17:09:35.838 [main] INFO  o.t.u.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+14.12.2023 17:09:36.076 [background-preinit] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+14.12.2023 17:09:36.127 [main] INFO  c.b.p.PaymentServiceApplicationTests - Starting PaymentServiceApplicationTests using Java 21 with PID 11826 (started by aleksej in /Users/aleksej/Desktop/Учеба/Конспект и дз по Нетологии/9. Sptring Boot, Deplyment & инфраструктура/9.6._Курсовая_работа/PaymentService/PaymentService)
+14.12.2023 17:09:36.128 [main] INFO  c.b.p.PaymentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14.12.2023 17:09:37.276 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+14.12.2023 17:09:37.285 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+14.12.2023 17:09:37.288 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+14.12.2023 17:09:37.288 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+14.12.2023 17:09:37.388 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+14.12.2023 17:09:37.389 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1238 ms
+14.12.2023 17:09:37.584 [main] INFO  c.b.p.r.CardDateBase - База карт проинициализирована
+14.12.2023 17:09:37.955 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14.12.2023 17:09:37.999 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+14.12.2023 17:09:38.013 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 60292 (http) with context path ''
+14.12.2023 17:09:38.025 [main] INFO  c.b.p.PaymentServiceApplicationTests - Started PaymentServiceApplicationTests in 2.142 seconds (process running for 3.794)
+14.12.2023 17:09:39.104 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+14.12.2023 17:09:39.372 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+14.12.2023 17:09:39.373 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+14.12.2023 17:09:39.393 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 24.0.6
+  API Version: 1.43
+  Operating System: Docker Desktop
+  Total Memory: 7846 MB
+14.12.2023 17:09:39.414 [main] INFO  t.t.5.1 - Creating container for image: testcontainers/ryuk:0.5.1
+14.12.2023 17:09:39.699 [main] INFO  t.t.5.1 - Container testcontainers/ryuk:0.5.1 is starting: c987ff557280ef9cfe48ea44c9c821f7cf44bcf99aea9674d299da00c432147a
+14.12.2023 17:09:40.155 [main] INFO  t.t.5.1 - Container testcontainers/ryuk:0.5.1 started in PT0.755942S
+14.12.2023 17:09:40.164 [main] INFO  o.t.u.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+14.12.2023 17:09:40.165 [main] INFO  o.t.DockerClientFactory - Checking the system...
+14.12.2023 17:09:40.165 [main] INFO  o.t.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+14.12.2023 17:09:40.166 [main] INFO  t.t.0 - Creating container for image: transferapperror:1.0
+14.12.2023 17:09:40.196 [main] INFO  t.t.0 - Container transferapperror:1.0 is starting: 075081d6810ad37e0a53dd948f0dd4ca6fd92ae0c41ab021c8b68e670d08271c
+14.12.2023 17:09:46.469 [main] INFO  t.t.0 - Container transferapperror:1.0 started in PT6.303389S
+14.12.2023 20:41:34.813 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.belov.paymentservice.PaymentServiceApplicationTests]: PaymentServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14.12.2023 20:41:34.959 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.belov.paymentservice.PaymentServiceApplication for test class com.belov.paymentservice.PaymentServiceApplicationTests
+14.12.2023 20:41:35.337 [main] INFO  o.t.u.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+14.12.2023 20:41:35.550 [background-preinit] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+14.12.2023 20:41:35.602 [main] INFO  c.b.p.PaymentServiceApplicationTests - Starting PaymentServiceApplicationTests using Java 21 with PID 15381 (started by aleksej in /Users/aleksej/Desktop/Учеба/Конспект и дз по Нетологии/9. Sptring Boot, Deplyment & инфраструктура/9.6._Курсовая_работа/PaymentService/PaymentService)
+14.12.2023 20:41:35.603 [main] INFO  c.b.p.PaymentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14.12.2023 20:41:36.701 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+14.12.2023 20:41:36.709 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+14.12.2023 20:41:36.711 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+14.12.2023 20:41:36.712 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+14.12.2023 20:41:36.805 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+14.12.2023 20:41:36.806 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1180 ms
+14.12.2023 20:41:36.997 [main] INFO  c.b.p.r.CardDateBase - База карт проинициализирована
+14.12.2023 20:41:37.355 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14.12.2023 20:41:37.406 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+14.12.2023 20:41:37.423 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 61034 (http) with context path ''
+14.12.2023 20:41:37.437 [main] INFO  c.b.p.PaymentServiceApplicationTests - Started PaymentServiceApplicationTests in 2.062 seconds (process running for 3.579)
+14.12.2023 20:41:38.526 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+14.12.2023 20:41:38.831 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+14.12.2023 20:41:38.833 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+14.12.2023 20:41:38.848 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 24.0.6
+  API Version: 1.43
+  Operating System: Docker Desktop
+  Total Memory: 7846 MB
+14.12.2023 20:41:38.871 [main] INFO  t.t.5.1 - Creating container for image: testcontainers/ryuk:0.5.1
+14.12.2023 20:41:44.518 [main] INFO  t.t.5.1 - Container testcontainers/ryuk:0.5.1 is starting: 0363a60765eda12f965294963f1e56e28f747bf420cfe6ab86bedbbf62661a92
+14.12.2023 20:41:45.285 [main] INFO  t.t.5.1 - Container testcontainers/ryuk:0.5.1 started in PT6.428862S
+14.12.2023 20:41:45.300 [main] INFO  o.t.u.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+14.12.2023 20:41:45.301 [main] INFO  o.t.DockerClientFactory - Checking the system...
+14.12.2023 20:41:45.302 [main] INFO  o.t.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+14.12.2023 20:41:45.303 [main] INFO  t.t.0 - Creating container for image: transferapperror:1.0
+14.12.2023 20:41:45.344 [main] INFO  t.t.0 - Container transferapperror:1.0 is starting: 26efe148bd28f932dac3d681c20a2208ae92f4b8a58927df154b7f2201f0da3f
+14.12.2023 20:41:51.918 [main] INFO  t.t.0 - Container transferapperror:1.0 started in PT6.614893S
+14.12.2023 20:43:21.467 [background-preinit] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+14.12.2023 20:43:21.509 [main] INFO  c.b.p.PaymentServiceApplication - Starting PaymentServiceApplication using Java 21 with PID 15433 (/Users/aleksej/Desktop/Учеба/Конспект и дз по Нетологии/9. Sptring Boot, Deplyment & инфраструктура/9.6._Курсовая_работа/PaymentService/PaymentService/target/classes started by aleksej in /Users/aleksej/Desktop/Учеба/Конспект и дз по Нетологии/9. Sptring Boot, Deplyment & инфраструктура/9.6._Курсовая_работа/PaymentService/PaymentService)
+14.12.2023 20:43:21.510 [main] INFO  c.b.p.PaymentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+14.12.2023 20:43:22.569 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14.12.2023 20:43:22.576 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14.12.2023 20:43:22.578 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+14.12.2023 20:43:22.578 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+14.12.2023 20:43:22.669 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+14.12.2023 20:43:22.669 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1125 ms
+14.12.2023 20:43:22.867 [main] INFO  c.b.p.r.CardDateBase - База карт проинициализирована
+14.12.2023 20:43:23.324 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14.12.2023 20:43:23.366 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14.12.2023 20:43:23.371 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+14.12.2023 20:43:23.374 [main] INFO  o.a.c.h.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+14.12.2023 20:43:23.374 [main] INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
+14.12.2023 20:43:23.379 [main] INFO  o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+14.12.2023 20:43:23.380 [main] INFO  o.a.c.h.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+14.12.2023 20:43:23.390 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+14.12.2023 20:43:23.414 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+14.12.2023 20:43:49.631 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.belov.paymentservice.PaymentServiceApplicationTests]: PaymentServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14.12.2023 20:43:49.744 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.belov.paymentservice.PaymentServiceApplication for test class com.belov.paymentservice.PaymentServiceApplicationTests
+14.12.2023 20:43:50.082 [main] INFO  o.t.u.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+14.12.2023 20:43:50.264 [background-preinit] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+14.12.2023 20:43:50.299 [main] INFO  c.b.p.PaymentServiceApplicationTests - Starting PaymentServiceApplicationTests using Java 21 with PID 15439 (started by aleksej in /Users/aleksej/Desktop/Учеба/Конспект и дз по Нетологии/9. Sptring Boot, Deplyment & инфраструктура/9.6._Курсовая_работа/PaymentService/PaymentService)
+14.12.2023 20:43:50.300 [main] INFO  c.b.p.PaymentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14.12.2023 20:43:51.348 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+14.12.2023 20:43:51.354 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+14.12.2023 20:43:51.356 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+14.12.2023 20:43:51.357 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+14.12.2023 20:43:51.443 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+14.12.2023 20:43:51.443 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1124 ms
+14.12.2023 20:43:51.613 [main] INFO  c.b.p.r.CardDateBase - База карт проинициализирована
+14.12.2023 20:43:51.990 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14.12.2023 20:43:52.039 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+14.12.2023 20:43:52.057 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 61059 (http) with context path ''
+14.12.2023 20:43:52.071 [main] INFO  c.b.p.PaymentServiceApplicationTests - Started PaymentServiceApplicationTests in 1.956 seconds (process running for 3.332)
+14.12.2023 20:43:53.104 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+14.12.2023 20:43:53.355 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+14.12.2023 20:43:53.356 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+14.12.2023 20:43:53.374 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 24.0.6
+  API Version: 1.43
+  Operating System: Docker Desktop
+  Total Memory: 7846 MB
+14.12.2023 20:43:53.397 [main] INFO  t.t.5.1 - Creating container for image: testcontainers/ryuk:0.5.1
+14.12.2023 20:43:53.544 [main] INFO  t.t.5.1 - Container testcontainers/ryuk:0.5.1 is starting: c52d21593e49aec7e86b5f50dd7a7b959f51e2cdf08ac29a97e35da7af822d71
+14.12.2023 20:43:53.870 [main] INFO  t.t.5.1 - Container testcontainers/ryuk:0.5.1 started in PT0.488747S
+14.12.2023 20:43:53.876 [main] INFO  o.t.u.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+14.12.2023 20:43:53.876 [main] INFO  o.t.DockerClientFactory - Checking the system...
+14.12.2023 20:43:53.877 [main] INFO  o.t.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+14.12.2023 20:43:53.877 [main] INFO  t.t.0 - Creating container for image: transferapperror:1.0
+14.12.2023 20:43:53.915 [main] INFO  t.t.0 - Container transferapperror:1.0 is starting: ef879a860a27d10c23b55d3fbb7ec35354a23a858f022585ecfa46631dd284ac
+14.12.2023 20:43:59.802 [main] INFO  t.t.0 - Container transferapperror:1.0 started in PT5.925384S

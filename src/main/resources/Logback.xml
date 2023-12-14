@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Этот XML-файл представляет собой конфигурацию для Logback, который является библиотекой логирования в Java.
+-->
+<configuration>
+    <!--
+Этот XML-файл представляет собой конфигурацию для Logback, который является библиотекой логирования в Java.
+Давайте разберем его по частям:
+<configuration>: Элемент <configuration> является корневым элементом файла конфигурации Logback. Он содержит все
+настройки для конфигурации логирования.
+    -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!--
+<appender>: Элемент <appender> определяет, куда и как будут направляться логи. В данном случае, определен appender с
+именем "STDOUT" (стандартный вывод, т.е., консоль).
+name="STDOUT": Уникальное имя для аппендера.
+class="ch.qos.logback.core.ConsoleAppender": Указывает, что используется консольный аппендер.
+-->
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <!--
+<encoder>: Элемент <encoder> определяет формат сообщения лога.
+            -->
+            <pattern>%d{dd.MM.yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{20} - %msg%n</pattern>
+            <!--
+<pattern>: Здесь определен шаблон вывода логов с использованием различных плейсхолдеров, таких как %d (дата),
+%thread (имя потока), %level (уровень логирования), %logger (имя логгера), %msg (сообщение лога) и %n (новая строка).
+            -->
+        </encoder>
+    </appender>
+
+    <appender name="FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>slf4jlogbackexample.log</file>
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>slf4jlogbackexample.%d{yyyy-MM-dd}.log</fileNamePattern>
+
+            <!-- Храним файлы логов 10 дней -->
+            <maxHistory>10</maxHistory>
+
+            <!-- Максимальный размер файлов лога 30 гигабайт -->
+            <totalSizeCap>10GB</totalSizeCap>
+
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{20} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <!--
+        <root>: Элемент <root> определяет корневой логгер. Все логи будут проходить через этот логгер.
+level="debug": Уровень логирования для корневого логгера установлен на "debug". Это означает, что будут записываться
+все логи с уровнем "debug" и выше.
+        -->
+        <appender-ref ref="STDOUT"/>
+        <!--
+<appender-ref ref="STDOUT" />: Ссылаемся на аппендер с именем "STDOUT". Таким образом, все логи будут направляться в
+консоль.
+        -->
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>
+        <!--
+Этот файл конфигурации говорит Logback использовать консольный аппендер для вывода логов, а также указывает формат для
+каждого лога, который будет содержать информацию о дате, потоке, уровне логирования, имени логгера и сообщении. Уровень логирования установлен на "debug", что означает, что будут записываться все логи, включая "debug".
+        -->

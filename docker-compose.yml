@@ -1,0 +1,7 @@
+services:
+  transferApp:
+    build:
+      context: ./
+    image: transferapperror:1.0
+    ports:
+      - 5500:8080
